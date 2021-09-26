@@ -1,0 +1,40 @@
+.teacher-bg{
+    background-color: #292D51;
+    color: #ACAEBC;
+    margin: 1rem;
+    padding: 1rem;
+    line-height: 10px;
+    border-radius: 5px;
+}
+.card-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.add-btn{
+    padding: 8px 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.add-btn {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+.add-btn {
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+ }
+
+ .add-btn:hover {
+   background-position: right center;
+   color: #fff;
+ }
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
